@@ -46,6 +46,10 @@ aside {
     float: left;
     padding-bottom: 1em;
  }
+ aside p{
+     padding-top: 1em;
+     padding-left: 1em;
+ }
  
  /* footer section */
 footer {
@@ -55,4 +59,7 @@ footer {
     text-align: right;
     width: 600px;
     padding-bottom: 1em;
+ }
+ footer p{
+     padding-right: 1em;
  }
