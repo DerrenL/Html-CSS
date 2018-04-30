@@ -1,0 +1,58 @@
+/* 
+   Revisions Bookstore and Cafe style sheet 
+   Filename: styles.css
+
+   Author:   
+   Date:     
+   HTML5 and CSS3 Illustrated Unit D, Visual Workshop
+ */
+
+/* body and page container */
+body {
+    background-color: floralwhite;
+ }
+.container {
+    background-color: burlywood;
+    width: 600px;
+    margin: 0 auto;
+    border: solid;
+ }
+ 
+ /* headings */
+header {
+    text-align: center;
+    color: navy;
+    background-color: lightblue;
+    width: 600px;
+    height: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+ }
+ 
+ /* main content */
+article {
+    background-color: white;
+    width: 400px;
+    float: right;
+    padding-bottom: 1em;
+ }
+ article p{
+     padding-left: 1em;
+ }
+ /* sidebar */
+aside {
+    background-color: burlywood;
+    width: 200px;
+    float: left;
+    padding-bottom: 1em;
+ }
+ 
+ /* footer section */
+footer {
+    clear:right;
+    color: navy;
+    background-color: lightblue;
+    text-align: right;
+    width: 600px;
+    padding-bottom: 1em;
+ }
