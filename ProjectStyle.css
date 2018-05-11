@@ -1,0 +1,30 @@
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+ }
+.sitenavigation{
+    background-color: black;
+    text-align: center;
+  }
+  .sitenavigation a:hover{
+    background-color: white;
+    color: black;
+  
+  }
+  nav.sitenavigation p{
+    display: inline-block;
+    margin: 1.0em;
+  }
+  nav.sitenavigation a{
+    color: white;
+    text-decoration: grey;
+  }
+  header {
+    padding: 0.5em;
+    text-align: center;
+    background-color: #bdccd4;
+    font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+    font-weight: 900;
+ }
