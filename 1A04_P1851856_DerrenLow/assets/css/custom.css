@@ -1,0 +1,176 @@
+.carousel-item{
+	max-height: 300px;
+	overflow: hidden;
+}
+
+.about-image {
+	width:400px;
+	float:left;
+	padding-right:20px;
+}
+
+.about {
+	padding:20px;
+}
+
+section {
+	margin-top:20px;
+}
+
+.footer .col-md-5 p {
+	text-align: left;
+}
+
+.navbar-footer {
+	bottom:0;
+	right:0;
+	position: absolute;
+}
+
+.item-image {
+	width:50%;
+}
+
+.table-shop {
+	max-width:60%;
+	margin: 0 auto;
+}
+
+.item-quantity, .item-price {
+	text-align: center;
+}
+
+.item-quantity, .item-price {
+	background-color: #1f0b11;
+	color:#fff;
+	padding:4px;
+	padding-top:7px;
+	padding-bottom:7px;
+	margin:5px;
+	width:75px;
+}
+
+.shop-total {
+	font-weight: normal;
+	 margin-bottom: 0px;
+}
+
+footer {
+	border-top: 1px solid #F5F5F5;
+	margin-top:20px;
+}
+
+#form-checkout input::placeholder {
+	font-weight:normal;
+	color:#111;
+	opacity:1;
+}
+
+#form-checkout input {
+	margin-top:0px;
+}
+
+#form-checkout label {
+	margin-top:10px;
+}
+
+.form-actions {
+	margin-top:20px;
+	float:right;
+}
+
+.table-checkout-total {
+	text-align: right;
+}
+
+.review-name {
+	text-align: center;
+	font-weight:normal;
+	font-size:25px;
+	background-color:black;
+	color: white;
+}
+
+.review {
+	margin:20px;
+	padding:20px;
+	border:1px solid #FAFAFA;
+}
+
+.review-text {
+	padding-top:10px;
+	font-weight:normal;
+}
+
+
+.checkmark__circle {
+stroke-dasharray: 166;
+stroke-dashoffset: 166;
+stroke-width: 2;
+stroke-miterlimit: 10;
+stroke: #7ac142;
+fill: none;
+animation: stroke .6s cubic-bezier(0.650, 0.000, 0.450, 1.000) forwards;
+}
+
+.checkmark {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+display: block;
+stroke-width: 2;
+stroke: #fff;
+stroke-miterlimit: 10;
+margin: 10% auto;
+box-shadow: inset 0px 0px 0px #7ac142;
+animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+margin-top:2px !important;
+}
+
+.checkmark__check {
+transform-origin: 50% 50%;
+stroke-dasharray: 48;
+stroke-dashoffset: 48;
+animation: stroke .3s cubic-bezier(0.650, 0.000, 0.450, 1.000) .8s forwards;
+}
+
+@keyframes stroke {
+100% {
+stroke-dashoffset: 0;
+}
+}
+
+@keyframes scale {
+0%, 100% {
+transform: none;
+}
+50% {
+transform: scale3d(1.1, 1.1, 1);
+}
+}
+
+@keyframes fill {
+100% {
+box-shadow: inset 0px 0px 0px 50px #7ac142;
+}
+}
+
+
+.confirmation {
+	width:400px;
+	margin: 0 auto;
+}
+
+.confirmation .title {
+	text-align: center;	
+	font-size:35px;
+}
+
+.card-signup {
+	margin: 40px;
+}
+
+input::placeholder {
+	opacity:1 !important;
+	font-weight:normal !important;
+}
