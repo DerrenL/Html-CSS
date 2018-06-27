@@ -163,7 +163,7 @@ footer {
 @page {
    margin: 0.75in;
 }
-table, tbody, td, tfoot, th, thead, tr,{
+table, tbody, td, tfoot, th, thead, tr{
     border:0;
     padding: 0;
     margin: 0;
