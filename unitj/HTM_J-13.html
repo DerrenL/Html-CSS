@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Revisions Bookstore &amp; Cafe - Sign Up</title>
+      <!--
+         Revisions Bookstore and Cafe Sign Up page
+         Filename: signup.html
+      
+         Author:   
+         Date:     
+         HTML5 and CSS3 Illustrated Unit J, Visual Workshop
+      -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <script src="modernizr.custom.40753.js"></script>
+      <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,900' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="icon" sizes="192x192" href="images/android.png">
+   </head>
+   <body>
+      <div class="container">
+         <p class="skipnavigation"><a href="#contentstart">Skip navigation</a></p>
+         <header>
+            <h1>Revisions Bookstore &amp; Cafe</h1>
+            <div>
+               <img src="images/logo.gif" width="120" height="100" alt="">
+            </div>
+         </header>
+         <nav class="sitenavigation">
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="events.html">Events</a></li>
+               <li><a href="releases.html">New Releases</a></li>
+               <li><a href="signup.html">Book Groups</a></li>
+            </ul>
+         </nav>
+         <article id="contentstart">
+            <div class="container">
+               <h2>Book Groups</h2>
+               <h3>Sign Up Form</h3>
+               <form action="results.html">
+                   <fieldset class="contactinfo">
+                       <legend>Contact Information</legend>
+                       <label for="firstnameinput">
+                            First Name 
+                           <input type="text" name="firstname" id="firstnameinput" placeholder="First name">
+                       </label>
+
+                       <label for="lastnameinput">
+                           Last Name 
+                           <input type="text" name="lastname" id="lastnameinput" placeholder="Last name">
+                       </label>
+                       <label for="emailinput">
+                           Email 
+                           <input type="text" name="email" id="emailinput" placeholder="address@example.com">
+                       </label>
+                       <label for="phoneinput">
+                           Phone 
+                           <input type="text" name="phone" id=phoneinput>
+                       </label>
+                   </fieldset>
+                   <fieldset class="contactmethod">
+                       <legend>Preferred contact method</legend>
+                       <label for="Email">
+                           <input type="radio" name="contactme" id="emailcontact" value="Email" checked>
+                           Email
+                       </label>
+                       <label for="Phone">
+                           <input type="radio" name="contactme" id="phonecontact" value="Phone">
+                           Phone
+                       </label>
+                       <label for="Either">
+                           <input type="radio" name="contactme" id="eithercontact" value="Either">
+                           Either
+                       </label>
+                   </fieldset>
+                   <fieldset class="topicinterest">
+                       <legend>Topic(s) of interest</legend>
+                       <label for="African">
+                           <input type="checkbox" id="African" value="African American Writers" id="room">
+                            African American Writers
+                        </label>
+                        <label for="Mystery">
+                            <input type="checkbox" id="Mystery" value="Mystery" id="room">
+                            Mystery
+                        </label>
+                        <label for="Science">
+                            <input type="checkbox" id="Science" value="Science Fiction/Fantasy" id="room">
+                            Science Fiction/Fantacy
+                        </label>
+                        <label for="Fiction">
+                            <input type="checkbox" id="Fiction" value="Short Fiction" id="room">
+                            Short Fiction
+                        </label>
+                        <label for="Virginia">
+                            <input type="checkbox" id="History" value="Virginia History" id="room">
+                            Virginia History
+                        </label>
+                        <label for="Other">
+                            <input type="checkbox" id="Other" value="Other (please specify below)" id="room">
+                            Other (please specify below)
+                        </label>
+                   </fieldset>
+                   <fieldset class="information">
+                       <legend>Additional information</legend>
+                       <label for="addinformation">
+                           Questions or topic ideas for new writing groups
+                           <textarea name="addinformation" id="addinformation" rows="4" cols="70">
+                           </textarea>
+                       </label>
+                   </fieldset>
+                   <fieldset class="submitbutton">
+                       <input type="submit" id="submit" value="Submit">
+                   </fieldset>
+               </form>
+            </div>
+         </article>
+         <aside>
+            <p>Custom brewed coffee and hand-selected books.</p>
+            <p>Special orders are our specialty.</p>
+         </aside>
+         <footer>
+            <p>412 N. 25th St.</p>
+            <p>Richmond, VA 23223</p>
+            <p>(804) 555-2565</p>
+         </footer>
+      </div>
+   </body>
+</html>
